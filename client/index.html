@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <title>Join chat page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <div class="chat-header-inner">
+                <img src="./images/worldwide.png" width="64px" height="64px" class="planet"/>
+                <div class="div">
+                    <p style="font-size: 25px;margin-top: 10px;">Chat</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat-body">
+            <form action="chat.html" class="chat-body-form">
+                <div class="chat-dody-form-input">
+                    <div>Enter your name</div>
+                    <input type="text" name="user_name" id="user_name" class="enter-user-name">
+                </div>
+                <div class="chat-body-form-input">
+                    <div>Room</div>
+                    <select name="room" id="room" class="choose-room">
+                        <option>Jupiter</option>
+                        <option>Saturn</option>
+                        <option>Venus</option>
+                        <option>Mars</option>
+                    </select>
+                </div>
+                <div class="chat-footer">
+                    <button class="join_button button-common">Join room</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

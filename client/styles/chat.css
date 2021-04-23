@@ -1,0 +1,83 @@
+.wrapper {
+    width: 700px;
+    margin: 10% auto;
+}
+.messages_wrapper {
+    border: 2px solid coral;
+    padding: 10px;
+    max-height: 400px;
+}
+.form {
+    margin-left: 10px;
+}
+.messages li {
+    list-style-type: none;
+}
+.header {
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+.my-body-inner {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    min-height: 200px;
+}
+.my-footer {
+    padding: 10px;
+    background-color: coral;
+}
+.logo {
+    font-size: 25px;
+}
+.leave-button, .send-button {
+    border: 2px solid indigo;
+    padding: 5px;
+    border-radius: 5px;
+}
+.left-info {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: indigo;
+}
+.footer-form {
+    display: grid;
+    grid-template-columns: 73% 27%;
+}
+.messages {
+    margin: 0;
+    padding: 10px;
+}
+.messages li {
+    border: 1px solid orange;
+    padding: 5px;
+    background: sandybrown;
+    margin-bottom: 10px;
+}
+.nick-name {
+    color: white;
+    font-size: 20px;
+}
+.time-message {
+    color: currentcolor;
+    font-size: 17px;
+}
+.chat-msg {
+    color: indigo;
+    font-size: 23px;
+}
+.current_room_name {
+    display: block;
+    margin: 10px;
+    color: orange;
+    font-size: 24px;
+}
+.room-users-list {
+    list-style: decimal;
+}
+.room-users-list li {
+    margin-bottom: 5px;
+}

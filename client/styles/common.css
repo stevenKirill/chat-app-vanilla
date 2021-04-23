@@ -1,0 +1,13 @@
+.button-common {
+    padding: 4px;
+    color: white;
+    background-color: coral;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.scrollable {
+    overflow: scroll;
+    overflow-x: hidden;
+}

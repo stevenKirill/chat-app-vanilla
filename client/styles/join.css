@@ -1,0 +1,45 @@
+.container {
+    width: 600px;
+    margin: 10% auto;
+    border-radius: 5px;
+}
+.chat-header {
+    text-align: center;
+    background-color: coral;
+    padding: 5px;
+}
+.chat-header-inner {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.planet {
+    margin-right: 10px;
+}
+.chat-body {
+    background-color: indigo;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+.chat-body-form {   
+    width: 300px;
+    margin: 0px auto;
+}
+.chat-footer {
+    margin-top: 10px;
+    padding: 5px;
+}
+.enter-user-name {
+    padding: 5px;
+    margin-top: 4px;
+    outline: none;
+    margin-bottom: 5px;
+}
+.choose-room {
+    width: 100px;
+    padding: 6px;
+    font-size: 16px;
+    margin-top: 10px;
+}

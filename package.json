@@ -1,0 +1,22 @@
+{
+  "name": "chat-app-test",
+  "version": "1.0.0",
+  "description": "learn sockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "sockets",
+    "chat"
+  ],
+  "author": "Kirill Pavlovskii",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.1"
+  }
+}
